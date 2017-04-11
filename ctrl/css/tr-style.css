@@ -39,3 +39,7 @@ main{
 		width: 200px;  
 		height: 200px;
 	}
+
+._flex{}
+._flex div{flex: 1;}
+._flex div:last-child{flex: 4;}

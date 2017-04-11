@@ -18,11 +18,24 @@ header{
 	padding: 1em;
 	justify-content: space-between;
 	/*flex-direction: column-reverse;*/
-}
-
+}	
 nav{
 	width: 50vw;
 	align-items: center;
 	background-color: orangered;
 	justify-content: space-around;
 }
+
+.col1{background-color: blue;}
+.col2{background-color: tomato;}
+.col3{background-color: lime;}
+
+main{
+	width: 100%;
+	margin-top: 5em;
+	justify-content: space-around;
+}
+	main section{ 
+		width: 200px;  
+		height: 200px;
+	}
